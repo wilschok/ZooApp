@@ -4,9 +4,10 @@ using System.Text;
 
 namespace Zoo.Lib
 {
-    class Zoo
+    public class Zoo
     {
         public decimal EntranceFee { get; set; } = 50.0M;
+        public LionCage LionCage { get; set; }
 
         public Zoo(decimal entranceFee)
         {
